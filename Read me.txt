@@ -1,0 +1,32 @@
+Technical Screening - Socks
+
+Harpal Singh
+
+Introduction
+This challenge is an opportunity to demonstrate proficiency in the languages we implement inour development stack here at Presto, as well as to gauge your optimization process.
+
+Task
+
+Given a string that represents a list of socks, print out the pairs of unique identifiers that
+is associated with each sock.
+
+Matching socks are defined as a pair of socks - one left, one right - that are the same
+color.
+
+Example input
+String socksString ="1/blue/right,2/blue/right,3/red/right,4/blue/left,5/purple/left,6/red/left,7/green/left,8/red/left,9/blue/left";
+
+Expected output
+1 4
+3 6
+2 9
+
+BONUS
+Print the unmatched sock ids in alphabetical order by color, left to right.
+Expected bonus output
+3 1
+5 2
+6
+4
+7
+
