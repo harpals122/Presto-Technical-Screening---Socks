@@ -17,16 +17,11 @@ Example input
 String socksString ="1/blue/right,2/blue/right,3/red/right,4/blue/left,5/purple/left,6/red/left,7/green/left,8/red/left,9/blue/left";
 
 Expected output
-1 4
-3 6
-2 9
+combination of different Id's to make a pair of socks
 
 BONUS
 Print the unmatched sock ids in alphabetical order by color, left to right.
 Expected bonus output
-3 1
-5 2
-6
-4
-7
+
+combination of different Id's that wont make a socks of pair
 
